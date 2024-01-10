@@ -17,9 +17,9 @@ module.exports = {
         csLightBlueHover : ['#739AB1'],
       },
       backgroundImage: {
-        'cover-image': "url('../../src/img/cover-pink-2.jpg')",
-        'anime-1' : "url('../../src/img/anime-wedding-2.jpg')",
-        'anime-2' : "url('../../src/img/anime-wedding-1.jpg')",
+        'cover-image': "url('../img/cover-pink-2.jpg')",
+        'anime-1' : "url('../img/anime-wedding-2.jpg')",
+        'anime-2' : "url('../img/anime-wedding-1.jpg')",
       },
       dropShadow: {
         '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
