@@ -12,17 +12,18 @@
       rel="stylesheet"
     />
     <!-- AOS -->
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
+  <body class="flex flex-col items-center justify-center">
     <div
       id="cover"
-      class="flex transition-all duration-1000  overflow-hidden justify-center items-center fixed top-0 w-screen h-screen z-10  bg-csBackground-0"
+      class="flex transition-all xs:w-[375px] xs:overflow-x-hidden duration-1000 overflow-hidden justify-center items-center fixed top-0 w-full h-full z-10 bg-csBackground-0"
+
     >
       <div
-        class="w-[425px] h-[759px] flex shadow-2xl items-center flex-col bg-center bg-cover bg-cover-image"
+      class="w-[425px] xs:w-[375px] xs:overflow-x-hidden h-[759px] flex shadow-2xl items-center flex-col bg-center bg-cover bg-cover-image"
       >
         <h2 class="font-montserrat font-semibold italic mt-32 text-2xl">
           The Wedding Of
@@ -53,7 +54,7 @@
     </div>
     <main class="bg-csBackground-0 w-full flex items-center justify-center">
       <div
-        class="bg-csBackgroundBlue-0 shadow-[0_4px_17px_7px_#00000040] w-[425px]"
+        class="bg-csBackgroundBlue-0 shadow-[0_4px_17px_7px_#00000040] w-[425px] xs:w-[375px] xs:overflow-x-hidden"
       >
         <!-- ================== S: SECTION 1 ================== -->
         <section
@@ -359,7 +360,7 @@
         <!-- ================== S: SECTION 3 ================== -->
       </div>
     </main>
-    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
