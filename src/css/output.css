@@ -548,6 +548,10 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -656,10 +660,6 @@ video {
   height: 86px;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .h-full {
   height: 100%;
 }
@@ -702,10 +702,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-screen {
-  width: 100vw;
 }
 
 .max-w-\[423px\] {
@@ -832,7 +828,7 @@ video {
 }
 
 .bg-cover-image {
-  background-image: url('../../public/img/cover-pink-2.jpg');
+  background-image: url('../img/cover-pink-2.jpg');
 }
 
 .bg-cover {
@@ -1105,12 +1101,12 @@ video {
 
 .before\:bg-anime-1::before {
   content: var(--tw-content);
-  background-image: url('../../public/img/anime-wedding-2.jpg');
+  background-image: url('../img/anime-wedding-2.jpg');
 }
 
 .before\:bg-anime-2::before {
   content: var(--tw-content);
-  background-image: url('../../public/img/anime-wedding-1.jpg');
+  background-image: url('../img/anime-wedding-1.jpg');
 }
 
 .before\:bg-cover::before {
